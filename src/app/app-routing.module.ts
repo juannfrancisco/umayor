@@ -1,3 +1,5 @@
+import { MensajesComponent } from './components/mensajes/mensajes.component';
+import { HomeCampusComponent } from './components/home-campus/home-campus.component';
 import { CalendarioComponent } from './components/calendario/calendario.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { CampusComponent } from './components/campus/campus.component';
@@ -20,8 +22,10 @@ const routes: Routes = [
     { path:'estudiantes', component: EstudiantesComponent },
   ] },
   { path:'campus', component: CampusComponent, children:[
+    { path:'home', component: HomeCampusComponent },
     { path:'cursos', component: CursosComponent },
     { path:'calendario', component: CalendarioComponent },
+    { path:'mensajes', component: MensajesComponent }
   ] },
   { path:'**', component: NotFoundComponent },
 ];

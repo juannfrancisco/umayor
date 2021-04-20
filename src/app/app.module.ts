@@ -16,6 +16,8 @@ import { CampusComponent } from './components/campus/campus.component';
 import { SideBarCampusComponent } from './components/side-bar-campus/side-bar-campus.component';
 import { CursosComponent } from './components/cursos/cursos.component';
 import { CalendarioComponent } from './components/calendario/calendario.component';
+import { HomeCampusComponent } from './components/home-campus/home-campus.component';
+import { MensajesComponent } from './components/mensajes/mensajes.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { CalendarioComponent } from './components/calendario/calendario.componen
     CampusComponent,
     SideBarCampusComponent,
     CursosComponent,
-    CalendarioComponent
+    CalendarioComponent,
+    HomeCampusComponent,
+    MensajesComponent
   ],
   imports: [
     BrowserModule,
