@@ -1,0 +1,17 @@
+#campus-container{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh; 
+    height: -webkit-fill-available; 
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#campus-sidebar{
+    width: 280px;
+}
+
+#campus-main-content{
+    width: 100%;
+}
+
